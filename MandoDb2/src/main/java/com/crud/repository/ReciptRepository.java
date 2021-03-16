@@ -1,0 +1,13 @@
+package com.crud.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import com.crud.model.Recipt;
+
+@Repository
+public interface ReciptRepository extends MongoRepository<Recipt,Integer>{
+
+	
+	
+}
